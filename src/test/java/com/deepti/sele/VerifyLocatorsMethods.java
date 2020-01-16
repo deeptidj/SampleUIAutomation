@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
-import java.util.List;
+
 
 /**
  * Created by deepti on 2/28/18.
@@ -64,7 +64,7 @@ public class VerifyLocatorsMethods {
 
 
       driver.findElements(By.cssSelector("input[name='findFlights']")).get(0).click();
-        
+
     }
 
 
